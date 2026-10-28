@@ -1,0 +1,29 @@
+* { box-sizing: border-box; margin: 0; padding: 0; font-family: 'Segoe UI', Arial, sans-serif; }
+body { background: linear-gradient(135deg, #667eea, #764ba2); min-height: 100vh; color: #2d3436; }
+.navbar { background: rgba(0,0,0,0.25); padding: 16px 40px; display: flex; justify-content: space-between; align-items: center; }
+.brand { color: #fff; font-size: 22px; font-weight: bold; }
+.navbar a { color: #fff; text-decoration: none; margin-left: 24px; font-weight: 500; }
+.navbar a:hover { text-decoration: underline; }
+.container { max-width: 640px; margin: 40px auto; padding: 0 16px; }
+.card { background: #fff; border-radius: 16px; padding: 32px; box-shadow: 0 10px 30px rgba(0,0,0,0.25); }
+.hero { text-align: center; }
+h1 { margin-bottom: 10px; }
+h2 { margin-bottom: 6px; }
+.sub { color: #636e72; margin-bottom: 20px; }
+.field { display: block; font-weight: 600; margin-bottom: 6px; }
+input[type=text] { width: 100%; padding: 12px; border: 2px solid #dfe6e9; border-radius: 10px; margin-bottom: 18px; font-size: 15px; }
+input[type=text]:focus { outline: none; border-color: #6c5ce7; }
+.option { display: flex; align-items: center; gap: 12px; padding: 14px; border: 2px solid #dfe6e9; border-radius: 10px; margin-bottom: 10px; cursor: pointer; transition: 0.2s; }
+.option:hover { border-color: #6c5ce7; background: #f5f3ff; }
+.btn { display: inline-block; margin-top: 14px; padding: 12px 28px; background: #6c5ce7; color: #fff; border: none; border-radius: 10px; font-size: 16px; text-decoration: none; cursor: pointer; }
+.btn:hover { background: #5b4bd5; }
+.btn.secondary { background: #00b894; margin-left: 8px; }
+.msg { padding: 14px; border-radius: 10px; margin-bottom: 18px; }
+.msg.success { background: #d4f8ea; color: #00694c; }
+.msg.warn { background: #fff3cd; color: #7a5b00; }
+.result-row { margin-bottom: 16px; }
+.result-label { display: flex; justify-content: space-between; margin-bottom: 6px; font-weight: 600; }
+.bar-bg { background: #eee; border-radius: 20px; height: 18px; overflow: hidden; }
+.bar { height: 100%; border-radius: 20px; transition: width 0.6s; }
+.session-box { margin-top: 24px; padding: 14px; background: #f1f2f6; border-radius: 10px; font-size: 13px; color: #636e72; word-break: break-all; }
+.footer { text-align: center; color: #fff; padding: 20px; font-size: 14px; opacity: 0.9; }
